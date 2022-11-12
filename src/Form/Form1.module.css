@@ -1,0 +1,25 @@
+.enter {
+
+    position: relative;
+}
+
+.inputNumber {
+    transform: skew(-47deg);
+    width: 400px;
+    height: 55px;
+    background: #d0d0d0;
+    border: white 3px solid;
+    color: transparent;
+    text-shadow: 0 0 0 black;
+    cursor: none;
+}
+.inputNumber::placeholder {
+    padding-left: 30px;
+    font-style: inherit;
+    transform: skew(45deg);
+    font-size: 17px;
+}
+
+.enterNumber {
+    position: absolute;
+}
