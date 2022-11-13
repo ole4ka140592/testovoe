@@ -32,6 +32,12 @@
     font-size: 18px;
 }
 
+.inputNumberPlaceholder[type="number"]::-webkit-outer-spin-button,
+.inputNumberPlaceholder[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .inputSend {
     width: 250px;
     min-height: 55px;
@@ -60,19 +66,28 @@
     top: 60px;
 }
 
+.status{
+    position: absolute;
+    color: white;
+    top: 90px;
+}
+
 @media screen and (max-width: 991px) {
     .inputNumber {
         transform: none;
         width: 200px;
         border: white 1px solid;
     }
+
     .inputSend {
         transform: none;
         width: 200px;
     }
+
     .inputNumberPlaceholder {
         transform: none;
     }
+
     .inputSendPlaceholder {
         transform: none;
     }
@@ -82,6 +97,7 @@
     .inputNumber {
         width: 130px;
     }
+
     .inputSend {
         width: 130px;
     }
